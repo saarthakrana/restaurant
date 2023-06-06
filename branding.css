@@ -1,0 +1,71 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: black;
+    background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.35),rgba(0,0,0,0)),
+    url(back.jpg);
+   background-repeat:  no-repeat;
+    background-size: cover;  
+}
+#topbox{
+    float: right;
+    border: 1px solid rgb(255, 255, 255);
+    width: 700px;   
+}
+#topbox ul li{
+    list-style: none;
+    font-size: larger;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    width: 140px;
+}
+#topbox ul li a{
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    
+}
+#topbox ul li a:hover{ background: #077406;}
+#wd{
+    width: 300px;
+    height: 492px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding: 55px;
+}
+#descrip{
+    word-spacing: 0.3em;
+    line-height: 20px;
+    font-size: 110%;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+
+}
+#head{
+    font-weight: bold;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    float: right;
+    width: 650px;
+    margin: auto;
+    font-size: 3em;
+}
+#wel{
+    font-family: 'Dancing Script', cursive;
+   
+}
+.title h1 a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5;
+}
+.title h1 a:hover{
+    
+    cursor: default;
+    letter-spacing: 4px;
+}
+
